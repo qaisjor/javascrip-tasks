@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 400px;
+            margin: 0 auto;
+            box-shadow: 3px 3px 10px gray;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="">
+            <input type="text" placeholder="subject" id="subject" >
+            <br><br>
+            <textarea name="" cols="30" rows="10" id="desc"></textarea><br>
+            <h3>you Gender : </h3>
+            <br>
+            <label> User Types :</label>
+            <input type="checkbox" id="client" name="user" value="client">
+            <label for="client"> Client</label>
+            <input type="checkbox" id="admain" name="user" value="admain">
+            <label for="admain"> Admain</label>
+            <input type="checkbox" id="visitor" name="user" value="visitor">
+            <label for="visitor"> Visitor</label><br>
+
+            <h3>Choose your favourite languages : </h3>
+            <div><input type="checkbox" name="language" id="html" value="html" ><label for="html">html</label></div>
+            <div><input type="checkbox" name="language" id="css" value="css" ><label for="css">css</label></div>
+            <div><input type="checkbox" name="language" id="javascript" value="javascript" ><label for="javascript">javascript</label></div>
+            
+            <input type="submit">
+            
+        </form>    
+     </div>
+     
+     <div class="card">
+     </div>  
+    <script src="task2.js"> </script>
+</body>
+</html>
