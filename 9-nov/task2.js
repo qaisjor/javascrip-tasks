@@ -34,13 +34,13 @@ for(let i =0 ; i <languages.length ; i++){
 
 
 let project = {
-   subject:`${subject.value}`,
+   subject:`${subject.value} `,
    langs:`${langs}`,
    desc:`${desc.value}`,
    users:`${usertype}` 
 }
 
-  localStorage.setItem("project",JSON.stringify(project));
+  sessionStorage.setItem("project",JSON.stringify(project));
 
   createCard();
 } 
